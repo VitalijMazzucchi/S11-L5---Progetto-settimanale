@@ -1,3 +1,8 @@
+Account per accedere:
+email: emanuele.umberto@epicode.it
+password: epicode
+
+
 # Site
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
