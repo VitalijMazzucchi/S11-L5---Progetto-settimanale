@@ -1,0 +1,25 @@
+<div *ngIf="post.length !== 0">
+  <h2>Lista eroi scomparsi</h2>
+  <mat-list role="list" *ngFor="let item of post">
+    <mat-list-item role="listitem">Eroe scomparso:<span>{{item.title}}</span> ,sconfitto da:
+      <span>{{item.author}}</span>
+      <button (click)="deletePost(item)" mat-icon-button color="warn"
+        aria-label="Example icon button with a heart icon">
+        <mat-icon>group_add</mat-icon>
+      </button>
+
+    </mat-list-item>
+
+
+  </mat-list>
+
+</div>
+
+
+<div *ngIf="post.length == 0 || post==undefined">
+  <mat-list role="list">
+    <mat-list-item role="listitem">sfortunatamente ancora nessun eroe scomparso
+    </mat-list-item>
+  </mat-list>
+
+</div>

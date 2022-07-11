@@ -1,0 +1,11 @@
+<mat-toolbar color="warn">
+  <span>Chi ha ucciso l uomo ragno ...</span>
+  <div>
+    <mat-button-toggle-group name="favoriteColor" aria-label="Favorite Color">
+      <mat-button-toggle value="red"><a href="#" routerLink="/homepage">Home</a></mat-button-toggle>
+      <mat-button-toggle value="green"><a href="#" routerLink="/about">About</a></mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+  <button *ngIf="logged !==null" mat-button (click)="logout()">X-Logout-X</button>
+
+</mat-toolbar>

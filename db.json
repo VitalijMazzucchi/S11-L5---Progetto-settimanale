@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "v@v.it",
+      "password": "$2a$10$BEML/2PXYah6biEOTnoEB.wCzkBlknxa9Jdto35o.vtB/MTshdV.C",
+      "utente": "giova",
+      "id": 1
+    }
+  ],
+  "posts": []
+}

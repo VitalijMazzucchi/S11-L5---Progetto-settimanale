@@ -1,0 +1,24 @@
+<div>
+  <h2>login</h2>
+  <form #f="ngForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="outline">
+      <mat-label>Utente</mat-label>
+      <input type="email" ngModel name="email" matInput placeholder="email">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input [type]="hide ? 'password' : 'text'" ngModel name="password" matInput placeholder="password">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+        [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'lock' : 'visibility'}}</mat-icon>
+      </button>
+    </mat-form-field>
+    <button mat-raised-button color="primary">entra</button>
+  </form>
+  <h2>Oppure</h2>
+  <button mat-stroked-button color="warn" [routerLink]="['/registrazione']"
+    routerLinkActive="router-link-active">Registrati</button>
+
+</div>

@@ -1,0 +1,16 @@
+div{
+  width: 80%;
+  text-align: center;
+  border: 1px solid black;
+  margin: 5rem auto;
+}
+span{
+  color: red;
+}
+button{
+margin-left: 2rem;
+}
+button:hover{
+  transform: scale(2);
+}
+

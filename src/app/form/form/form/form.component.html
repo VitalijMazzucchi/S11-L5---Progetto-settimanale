@@ -1,0 +1,15 @@
+<div>
+  <h2>Eroi eliminati</h2>
+  <form #f="ngForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="outline">
+      <mat-label>eroe ucciso</mat-label>
+      <input ngModel name="title" matInput placeholder="nome eroe ucciso">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>da chi</mat-label>
+      <input ngModel name="author" matInput placeholder="nome villan">
+    </mat-form-field>
+    <button mat-raised-button color="primary">birbantello</button>
+  </form>
+</div>
