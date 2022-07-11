@@ -1,11 +1,17 @@
 {
   "users": [
     {
-      "email": "v@v.it",
-      "password": "$2a$10$BEML/2PXYah6biEOTnoEB.wCzkBlknxa9Jdto35o.vtB/MTshdV.C",
-      "utente": "giova",
+      "email": "emanuele.umberto@epicode.it",
+      "password": "$2a$10$7ygsnyTFm5iM9VObpI9J/.hxG4rox9Lhph1HuXXgY8dF62gqOM/Fi",
+      "utente": "Emanuele",
       "id": 1
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "title": "Uomo Ragno",
+      "author": "Caffe",
+      "id": 1
+    }
+  ]
 }

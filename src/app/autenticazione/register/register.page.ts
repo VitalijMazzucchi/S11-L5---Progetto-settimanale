@@ -8,6 +8,7 @@ import { ServerService } from '../server.service';
   styleUrls: ['./register.page.scss'],
 })
 export class RegisterPage implements OnInit {
+  hide = true;
   @ViewChild('f') form!: NgForm;
   erroreserver = undefined;
   constructor(private serverservice: ServerService, private router: Router) {}

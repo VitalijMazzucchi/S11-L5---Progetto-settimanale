@@ -69,6 +69,8 @@ export class ServerService {
       method: 'DELETE',
     })
       .then((res) => res.json())
-      .then((json) => alert('Eroe Resuscitato'));
+      .then((json) =>
+        alert(obj.title + ' e rescuscitatto,' + obj.author + ' e arrabbiato')
+      );
   }
 }
